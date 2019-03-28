@@ -2,6 +2,12 @@
 
 - 学习测试驱动开发的开发模式
 
+### mocha
+
+- [x] assert
+- [x] hooks
+- [x] asynchronosed
+
 ### 单元测试
 
 - [x] 断言
@@ -13,11 +19,6 @@
 - [ ] 测试覆盖率
 - [ ] mock
 - [ ] 私有方法的测试
-
-### mocha
-
-- [x] hooks
-- [ ] asynchronosed
 
 ### 工程化与自动化
 
