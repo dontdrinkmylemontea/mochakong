@@ -1,7 +1,7 @@
-exports.fast = function(arr) {
-  function sort(arr, left, right) {
-    if (left >= right) {
-      return arr;
+exports.fastsort = function(array) {
+  function sort(array, left, right) {
+    if (left > right) {
+      return array;
     }
     var i = left,
       j = right,
@@ -17,7 +17,8 @@ exports.fast = function(arr) {
     array[i] = num;
     sort(array, left, i - 1);
     sort(array, i + 1, right);
+    return array;
   }
 
-  return sort(arr, 0, arr.length - 1);
+  return sort(array, 0, array.length - 1);
 };

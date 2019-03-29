@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "benchmark": "^2.1.4",
     "istanbul": "^0.4.5",
     "mocha": "^6.0.2",
     "mochawesome": "^3.1.1",
