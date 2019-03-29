@@ -18,7 +18,7 @@
 - [x] 测试报告(使用`--reporter` 选项)
 - [x] 异步测试(使用 `done` 参数)
 - [x] 超时设置(使用 `timeout` 接口)
-- [ ] 测试覆盖率(使用[istanbul](https://github.com/gotwarlost/istanbul))
+- [ ] 测试覆盖率(使用[istanbul.nyc](https://github.com/istanbuljs/nyc))
 - [ ] mock
 - [ ] 私有方法的测试
 
