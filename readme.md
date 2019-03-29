@@ -28,7 +28,7 @@
 
 - [x] 工程化
 - [x] 持续集成(使用[travis](https://docs.travis-ci.com/user/tutorial/))
-- [ ] 基准测试
+- [ ] 基准测试(使用[benchmark](https://github.com/google/benchmark))
 - [ ] 压力测试
 - [ ] 基准测试驱动开发
 - [ ] 测试数据与业务数据的转换
