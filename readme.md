@@ -33,4 +33,4 @@
 
 ### 文章
 
-- [x] [BDD 和 TDD 的区别](https://joshldavis.com/2013/05/27/difference-between-tdd-and-bdd/)
+- [BDD 和 TDD 的区别](https://joshldavis.com/2013/05/27/difference-between-tdd-and-bdd/)
