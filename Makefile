@@ -11,7 +11,7 @@ test:
 		$(TESTS)
 
 test-cov:
-	@$(MAKE) test MOCHA_OPS='--require blanket' REPORTER=$(REPORTER)
+	@$(MAKE) test 
 
 test-all: test test-cov
 

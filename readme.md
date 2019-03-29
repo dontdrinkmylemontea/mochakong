@@ -13,9 +13,9 @@
 - [x] 断言
 - [x] TDD（测试驱动开发）
 - [x] BDD（行为驱动开发）
-- [x] 测试报告(使用--reporter 选项)
-- [x] 异步测试(使用 done 参数)
-- [x] 超时设置(使用 timeout 接口)
+- [x] 测试报告(使用`--reporter` 选项)
+- [x] 异步测试(使用 `done` 参数)
+- [x] 超时设置(使用 `timeout` 接口)
 - [ ] 测试覆盖率(使用[istanbul](https://github.com/gotwarlost/istanbul))
 - [ ] mock
 - [ ] 私有方法的测试
@@ -29,6 +29,6 @@
 - [ ] 基准测试驱动开发
 - [ ] 测试数据与业务数据的转换
 
-### 总结
+### 文章
 
 - [x] [BDD 和 TDD 的区别](https://joshldavis.com/2013/05/27/difference-between-tdd-and-bdd/)
