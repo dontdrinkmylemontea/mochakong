@@ -1,5 +1,5 @@
 TESTS = test/*.js
-REPORTER = spec
+REPORTER = mochawesome
 TIMEOUT = 10000
 MOCHA_OPS = 
 
@@ -11,7 +11,7 @@ test:
 		$(TESTS)
 
 test-cov:
-	@$(MAKE) test MOCHA_OPS='--require blanket' REPORTER=html-cov > coverage.html
+	@$(MAKE) test MOCHA_OPS='--require blanket' REPORTER=$(REPORTER)
 
 test-all: test test-cov
 
