@@ -1,4 +1,4 @@
-https://api.travis-ci.org/dontdrinkmylemontea/mochakong.png?branch=master
+![build result](https://api.travis-ci.org/dontdrinkmylemontea/mochakong.png?branch=master)
 
 - 学习使用 mocha 测试框架
 
