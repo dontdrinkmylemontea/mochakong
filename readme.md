@@ -1,3 +1,5 @@
+# MOCHAKONG
+
 ![build result](https://api.travis-ci.org/dontdrinkmylemontea/mochakong.png?branch=master)
 
 - 学习使用 mocha 测试框架
@@ -19,7 +21,7 @@
 - [x] 异步测试(使用 `done` 参数)
 - [x] 超时设置(使用 `timeout` 接口)
 - [x] 测试覆盖率(使用[istanbul.nyc](https://github.com/istanbuljs/nyc))
-- [ ] mock
+- [x] mock(hack 了 http 模块的 http.request， 头发-3)
 - [ ] 私有方法的测试
 
 ### 工程化与自动化

@@ -1,7 +1,7 @@
 var assert = require("assert");
 var bubble = require("../src/bubble").bubble;
 
-describe.only("bubble", function() {
+describe("bubble", function() {
   var arr = [10, 5, 3, 7, 4];
 
   it("should return array", function() {
