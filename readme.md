@@ -22,7 +22,7 @@
 - [x] 超时设置(使用 `timeout` 接口)
 - [x] 测试覆盖率(使用[istanbul.nyc](https://github.com/istanbuljs/nyc))
 - [x] mock(hack 了 http 模块的 http.request， 头发-3)
-- [ ] 私有方法的测试
+- [x] 私有方法的测试(使用[rewire](https://github.com/jhnns/rewire))
 
 ### 工程化与自动化
 

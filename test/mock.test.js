@@ -1,7 +1,7 @@
 var sendRequest = require("../src/client").sendRequest;
 var http = require("http");
 
-describe.only("#client", function() {
+describe("#client", function() {
   var _request;
   beforeEach(function() {
     _request = http.request;
