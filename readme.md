@@ -1,3 +1,5 @@
+https://api.travis-ci.org/dontdrinkmylemontea/mochakong.png?branch=master
+
 - 学习使用 mocha 测试框架
 
 - 学习测试驱动开发的开发模式
@@ -23,7 +25,7 @@
 ### 工程化与自动化
 
 - [x] 工程化
-- [ ] 持续集成
+- [x] 持续集成(使用[travis](https://docs.travis-ci.com/user/tutorial/))
 - [ ] 基准测试
 - [ ] 压力测试
 - [ ] 基准测试驱动开发
