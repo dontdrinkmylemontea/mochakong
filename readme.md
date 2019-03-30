@@ -1,6 +1,8 @@
 # MOCHAKONG
 
-[<img src="https://api.travis-ci.org/dontdrinkmylemontea/mochakong.png?branch=master">](https://travis-ci.com/dashboard)
+[<img src="https://api.travis-ci.org/dontdrinkmylemontea/mochakong.png?branch=master">](https://travis-ci.com)
+
+> 参考自《深入浅出 nodejs》第十章
 
 - 学习使用 mocha 测试框架
 
@@ -29,7 +31,7 @@
 - [x] 工程化
 - [x] 持续集成(使用[travis](https://docs.travis-ci.com/user/tutorial/))
 - [x] 基准测试(使用[benchmark](https://github.com/google/benchmark), 进行基准测试时有语法错误不会报错，只是没有该项的测试结果。)
-- [ ] 压力测试
+- [x] 压力测试(使用[ab](https://github.com/node-modules/ab))
 - [ ] 基准测试驱动开发
 - [ ] 测试数据与业务数据的转换
 

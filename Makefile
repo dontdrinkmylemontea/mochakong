@@ -14,6 +14,18 @@ test:
 test-cov:
 	@$(MAKE) test COVERAGE_TEST=./node_modules/nyc/bin/nyc.js
 
+test-pre:
+	@NODE_ENV=test node ./test/pressure.test.js
+
+test-ben:
+	@NODE_ENV=test node ./test/benchmark.test.js
+
+server:
+	node ./src/server.js
+
+clean:
+	rm -rf .nyc_output mochawesome-report
+
 test-all: test test-cov
 
 .PHONY: test
