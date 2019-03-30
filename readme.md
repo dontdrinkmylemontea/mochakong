@@ -1,6 +1,6 @@
 # MOCHAKONG
 
-[<img src="https://api.travis-ci.org/dontdrinkmylemontea/mochakong.png?branch=master">](https://travis-ci.com)
+[<img src="https://api.travis-ci.org/dontdrinkmylemontea/mochakong.png?branch=master">](https://travis-ci.org/dontdrinkmylemontea/mochakong)
 
 > 参考自《深入浅出 nodejs》第十章
 
@@ -31,10 +31,12 @@
 - [x] 工程化
 - [x] 持续集成(使用[travis](https://docs.travis-ci.com/user/tutorial/))
 - [x] 基准测试(使用[benchmark](https://github.com/google/benchmark), 进行基准测试时有语法错误不会报错，只是没有该项的测试结果。)
-- [x] 压力测试(使用[ab](https://github.com/node-modules/ab))
-- [ ] 基准测试驱动开发
-- [ ] 测试数据与业务数据的转换
+- [x] 压力测试(使用[siege](https://github.com/JoeDog/siege))
+- [x] 基准测试驱动开发(BDD, Benchmark Driven Development)
+- [x] 测试数据与业务数据的转换
 
 ### 文章
 
 - [BDD 和 TDD 的区别](https://joshldavis.com/2013/05/27/difference-between-tdd-and-bdd/)
+- [Pageview](https://en.wikipedia.org/wiki/Pageview)
+- [Queries per second](https://en.wikipedia.org/wiki/Queries_per_second)
