@@ -28,11 +28,11 @@
 
 ### 工程化与自动化
 
-- [x] 工程化
+- [x] 工程化(Makefile)
 - [x] 持续集成(使用[travis](https://docs.travis-ci.com/user/tutorial/))
 - [x] 基准测试(使用[benchmark](https://github.com/google/benchmark), 进行基准测试时有语法错误不会报错，只是没有该项的测试结果。)
 - [x] 压力测试(使用[siege](https://github.com/JoeDog/siege))
-- [x] 基准测试驱动开发(BDD, Benchmark Driven Development)
+- [x] 基准测试驱动开发(BDD, [Benchmark Driven Development](https://github.com/felixge/faster-than-c))
 - [x] 测试数据与业务数据的转换
 
 ### 文章
